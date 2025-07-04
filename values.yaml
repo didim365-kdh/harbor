@@ -20,7 +20,7 @@ global:
   ##
   imagePullSecrets: []
   defaultStorageClass: ""
-  storageClass: ""
+  storageClass: "ktc-nfs-client"
   ## Security parameters
   ##
   security:
@@ -360,7 +360,7 @@ persistence:
     ##
     registry:
       existingClaim: ""
-      storageClass: ""
+      storageClass: "ktc-nfs-client"
       subPath: ""
       accessModes:
         - ReadWriteOnce
@@ -378,7 +378,7 @@ persistence:
     ##
     jobservice:
       existingClaim: ""
-      storageClass: ""
+      storageClass: "ktc-nfs-client"
       subPath: ""
       accessModes:
         - ReadWriteOnce
@@ -393,7 +393,7 @@ persistence:
     ## @param persistence.persistentVolumeClaim.trivy.selector Selector to match an existing Persistent Volume
     ##
     trivy:
-      storageClass: ""
+      storageClass: "ktc-nfs-client"
       accessModes:
         - ReadWriteOnce
       size: 5Gi
@@ -482,7 +482,7 @@ persistence:
       v4auth: ""
       chunksize: ""
       rootdirectory: ""
-      storageClass: ""
+      storageClass: "ktc-nfs-client"
       sse: ""
       multipartcopychunksize: ""
       multipartcopymaxconcurrency: ""
