@@ -168,7 +168,7 @@ exposureType: proxy
 service:
   ## @param service.type NGINX proxy service type
   ##
-  type: LoadBalancer
+  type: NodePort
   ## @param service.ports.http NGINX proxy service HTTP port
   ## @param service.ports.https NGINX proxy service HTTPS port
   ##
