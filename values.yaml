@@ -221,13 +221,6 @@ service:
   ## @param service.extraPorts Extra port to expose on NGINX proxy service
   ##
   extraPorts: []
-
-expose:
-  type: ingress
-  tls:
-    enabled: true
-    certSource: auto
-
 ingress:
   ## Configure the ingress resource that allows you to access Harbor Core
   ## ref: https://kubernetes.io/docs/concepts/services-networking/ingress/
@@ -298,7 +291,7 @@ ingress:
     ## extraTls:
     ## - hosts:
     ##     - core.harbor.domain
-    ## secretName: harbor.client.or.kr-tls-jjd55
+    secretName: harbor.client.or.kr-tls
     ##
     extraTls: []
     ## @param ingress.core.secrets Custom TLS certificates as secrets
