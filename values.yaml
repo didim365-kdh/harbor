@@ -78,7 +78,7 @@ diagnosticMode:
 
 ## @param adminPassword The initial password of Harbor admin. Change it from portal after launching Harbor
 ##
-adminPassword: ""
+adminPassword: "harbor12345"
 ## @param existingSecret Name of existing Secret containing the Harbor admin password
 ##
 existingSecret: ""
