@@ -291,7 +291,7 @@ ingress:
     ## extraTls:
     ## - hosts:
     ##     - core.harbor.domain
-    secretName: harbor.client.or.kr-tls
+    ## secretName: harbor.client.or.kr-tls
     ##
     extraTls: []
     ## @param ingress.core.secrets Custom TLS certificates as secrets
