@@ -272,7 +272,7 @@ ingress:
     extraTls:
       - hosts:
           - harbor.client.or.kr
-        secretName: harbor.client.or.kr-tls
+        secretName: harbor.client.or.kr-tls-rg72n
     ## @param ingress.core.extraHosts An array with additional hostname(s) to be covered with the ingress record
     ## e.g:
     ## extraHosts:
