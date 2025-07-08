@@ -162,7 +162,7 @@ database:
 ## Use "proxy" to deploy NGINX proxy in front of Harbor services
 ## Use "ingress" to use an Ingress Controller as proxy
 ##
-exposureType: ingress
+exposureType: proxy
 ## Service parameters
 ##
 service:
