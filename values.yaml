@@ -124,7 +124,7 @@ logLevel: debug
 internalTLS:
   ## @param internalTLS.enabled Use TLS in all the supported containers: core, jobservice, portal, registry and trivy
   ##
-  enabled: true
+  enabled: false
   ## @param internalTLS.caBundleSecret Name of an existing secret with a custom CA that will be injected into the trust store for core, jobservice, registry, trivy components
   ## The secret must contain the key "ca.crt"
   ##
