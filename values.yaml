@@ -3892,7 +3892,7 @@ externalDatabase:
   host: localhost
   port: 5432
   user: bn_harbor
-  password: ""
+  password: "GEbef53nei0wlWslw0HVyt"
   sslmode: disable
   coreDatabase: ""
   existingSecret: ""
